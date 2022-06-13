@@ -50,7 +50,6 @@ export const getDataTableSoVe = (
           let select =
             ArrayDonut.reduce((r: any, e: any) =>
               Object.assign(r, Objecta[e] ? { [e]: Objecta[e] } : null), {})
-
           let ArrayDonut1 = [`tuan${Number(dateDonut)+2}`]
           let select1 =
           ArrayDonut1.reduce((r: any, e: any) =>
